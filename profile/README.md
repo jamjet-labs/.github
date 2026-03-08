@@ -10,7 +10,6 @@ Durable execution &nbsp;·&nbsp; Native MCP + A2A &nbsp;·&nbsp; Rust core &nbsp
 
 [![PyPI](https://img.shields.io/pypi/v/jamjet?color=%23f5c518&labelColor=%230a0a0a&label=jamjet)](https://pypi.org/project/jamjet/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-%23f5c518?labelColor=%230a0a0a)](https://github.com/jamjet-labs/jamjet/blob/main/LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-join-%235865F2?logo=discord&logoColor=white&labelColor=%230a0a0a)](https://discord.gg/jamjet)
 [![Docs](https://img.shields.io/badge/docs-jamjet.dev-%23f5c518?labelColor=%230a0a0a)](https://jamjet.dev)
 
 </div>
@@ -112,4 +111,4 @@ jamjet init my-agent --template hello-agent
 cd my-agent && jamjet dev
 ```
 
-**→ [Full quickstart](https://jamjet.dev/quickstart) · [Examples](https://github.com/jamjet-labs/examples) · [Benchmarks](https://jamjet.dev/benchmarks) · [Discord](https://discord.gg/jamjet)**
+**→ [Full quickstart](https://jamjet.dev/quickstart) · [Examples](https://github.com/jamjet-labs/examples) · [Benchmarks](https://jamjet.dev/benchmarks)**
