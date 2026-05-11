@@ -1,15 +1,14 @@
 # JamJet Labs
 
-**The open-source safety layer for AI agents.**
+**JamJet is the action-control plane for AI agents.** One policy file. One audit trail. Across hooks, guardrails, MCP gateways, SDKs, and custom runtimes.
 
-Block unsafe tool calls. Require approval for risky actions. Enforce budgets. Keep an audit trail. Replay crashed runs.
-
-JamJet sits between your agent and its tools. Use it with LangChain, CrewAI, ADK, OpenAI Agents SDK, MCP — keep your framework, add control.
+*Write the safety policy once. Run it everywhere your agents can act.*
 
 ## Flagship repos
 
-- **[jamjet](https://github.com/jamjet-labs/jamjet)** — the safety layer. Python SDK, runtime, policy engine. Start here.
-- **[engram](https://github.com/jamjet-labs/engram)** — durable memory for AI agents. Independent product.
+- **[jamjet](https://github.com/jamjet-labs/jamjet)** — Python SDK + runtime + policy engine. Start here.
+- **[jamjet-policy](https://github.com/jamjet-labs/jamjet-policy)** — Portable policy adapters: Claude Code hook, MCP shim, OpenAI guardrail, CLI. One policy YAML, six runtimes.
+- **[engram](https://github.com/jamjet-labs/engram)** — Durable memory for AI agents. Independent product.
 
 ## JVM
 
@@ -19,9 +18,9 @@ JamJet sits between your agent and its tools. Use it with LangChain, CrewAI, ADK
 
 - **[jamjet-a2a](https://github.com/jamjet-labs/jamjet-a2a)** — Agent-to-Agent protocol SDK in Rust.
 
-## Coming next
+## What's coming next
 
-- **JamJet Gateway** — an MCP proxy that applies JamJet policy to MCP traffic from Claude Desktop, Cursor, and any MCP-aware agent. See [jamjet.dev/gateway](https://jamjet.dev/gateway).
+The portable policy layer just shipped. Next: deeper Cloud sync for approvals + audit (web UI for `jamjet approve`), Java/Spring adapter, MCP HTTP/SSE transport.
 
 ## Links
 
